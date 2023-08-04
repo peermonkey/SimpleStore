@@ -53,7 +53,20 @@ body{
     grid-template-columns: repeat(4, 223px);
     gap: 30px;
     justify-content: center;
+    aspect-ratio: 1,1;
     
+}
+
+@media (max-width :1000px){
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    }
+}
+
+@media (max-width :500px){
+    .shop{
+        grid-template-columns: repeat(2, 223px);
+    }
 }
 
 .item{
@@ -90,3 +103,4 @@ body{
 .bi-plus-lg{
     color: green;
 }
+
