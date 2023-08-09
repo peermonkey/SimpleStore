@@ -26,5 +26,5 @@ let shopItemsData = [
       price: 300,
       desc: "It is a nice men's suit",
       img: "images/img-4.jpg",
-    },
+    }
   ];
